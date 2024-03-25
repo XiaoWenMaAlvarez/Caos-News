@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+.sacramento-regular {
+  font-family: "Sacramento", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+main {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+.news-title {
+  margin-bottom: 1.5rem;
+}
+
+.news-description p {
+  font-size: .75rem;
+  margin-bottom: .5rem;
+}
+
+.news-description {
+  margin-bottom: 1rem;
+}
+
+.news-banner {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16/9;
+  padding: 0;
+  margin-bottom: 4rem;
+  overflow: hidden;
+}
+
+.news-banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.news-content p::first-letter {
+  font-family: 'Sacramento';
+  font-size: 4rem;
+  line-height: 1rem;
+  letter-spacing: 0;
+}
+
+.news-content {
+  margin-bottom: 2rem;
+}
+
+.photo-gallery-title {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.photo-gallery {
+  padding: 0;
+}
+
+.photo-gallery .carousel-item {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16/9;
+  overflow: hidden;
+}
+
+.photo-gallery img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 1024px) {
+  main {
+    padding-top: 3rem;
+  }
+
+  .news-description {
+    margin-bottom: 2rem;
+  }
+
+  .photo-gallery-title {
+    margin-bottom: 2rem;
+  }
+
+  .photo-gallery{
+    display: flex;
+    justify-content: center;
+  }
+
+  .photo-gallery .carousel {
+    max-width: 50vw;
+  }
+}

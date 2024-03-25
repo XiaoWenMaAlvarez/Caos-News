@@ -96,7 +96,11 @@ button:active {
   color: black;
 }
 
-@media screen and (max-width: 1024px) {
+.main-menu ul {
+  padding: 0;
+}
+
+@media screen and (max-width: 1023px) {
 
   .main-menu {
     position: fixed;
@@ -157,6 +161,7 @@ button:active {
     gap: 4rem;
     color: white;
     font-weight: 600;
+    margin-bottom: 0;
   }
 
   .main-menu li {
@@ -167,3 +172,4 @@ button:active {
     order: 1;
   }
 }
+
