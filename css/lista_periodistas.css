@@ -7,17 +7,33 @@
 .card {
     display: flex;
     justify-content: center;
-    flex-direction: column;
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    border: 3px solid #2b3d4f;
 }
 
 .image-container {
-    width: 100%;
+    width: 10rem;
+    overflow: hidden;
+    height: 10rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
 }
 
 .image-container img {
-    width: 300px;
     width: 100%;
     height: 100%;
     object-fit: cover;
+    
+}
+
+.card-container {
+    display: flex;
+    margin-left: 2rem;
+}
+
+.titulo-principal {
+    text-align: center;
+    margin-bottom: 4rem;
 }
