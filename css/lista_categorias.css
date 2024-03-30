@@ -1,0 +1,19 @@
+.carousel-indicators {
+    margin-bottom: 3rem;
+}
+
+nav h1 {
+    background-color: #2b3d4f;
+    color: white;
+}
+
+@media screen and (min-width:1024px) {
+    .slide{
+        cursor: pointer;
+        position: relative;
+        width: 100%;
+        height: 60vh;
+        overflow: hidden;
+    }
+
+}
