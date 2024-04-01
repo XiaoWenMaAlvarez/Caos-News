@@ -1,13 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
-
-.sacramento-regular {
-  font-family: "Sacramento", cursive;
-  font-weight: 400;
-  font-style: normal;
-}
-
 main {
-  padding-top: 1rem;
   padding-bottom: 2rem;
 }
 
@@ -15,9 +6,10 @@ main {
   margin-bottom: 1.5rem;
 }
 
-.news-description p {
+.news-description {
   font-size: .75rem;
   margin-bottom: .5rem;
+  margin-bottom: 1rem;
 }
 
 .news-description a {
@@ -25,16 +17,12 @@ main {
 
 }
 
-.news-description {
-  margin-bottom: 1rem;
-}
-
 .news-banner {
   width: 100%;
   height: auto;
   aspect-ratio: 16/9;
   padding: 0;
-  margin-bottom: 4rem;
+  margin-bottom: 1rem;
   overflow: hidden;
 }
 
@@ -44,15 +32,9 @@ main {
   object-fit: cover;
 }
 
-.news-content p::first-letter {
-  font-family: 'Sacramento';
-  font-size: 4rem;
-  line-height: 1rem;
-  letter-spacing: 0;
-}
-
 .news-content {
   margin-bottom: 2rem;
+  white-space: pre-line;
 }
 
 .photo-gallery-title {
@@ -77,12 +59,15 @@ main {
   object-fit: cover;
 }
 
-@media screen and (min-width: 1024px) {
-  main {
-    padding-top: 3rem;
+@media screen and (min-width: 734px) {
+  .news-content {
+    font-size: 1.5rem;
   }
+}
 
+@media screen and (min-width: 1024px) {
   .news-description {
+    font-size: 1rem;
     margin-bottom: 2rem;
   }
 

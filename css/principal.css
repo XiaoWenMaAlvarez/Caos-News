@@ -143,6 +143,12 @@ main {
 }
 
 @media screen and (min-width: 1024px) {
+  .main-title {
+    margin-bottom: 3rem;
+    font-size: 5rem;
+    font-weight: bold;
+  }
+
   .search-result .news-container{
     align-items: start;
   }
