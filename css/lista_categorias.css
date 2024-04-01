@@ -5,7 +5,10 @@
 nav h1 {
     background-color: #2b3d4f;
     color: white;
+    text-align: center;
+    margin-bottom: 1rem;
 }
+
 
 @media screen and (min-width:1024px) {
     .slide{
