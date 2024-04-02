@@ -1,3 +1,13 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  min-height: calc(100vh - 4rem);
+}
+
 .footer {
   color: white;
   background-color: #2b3d4f;
