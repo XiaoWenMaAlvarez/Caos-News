@@ -2,15 +2,24 @@
     margin-bottom: 3rem;
 }
 
-nav h1 {
-    background-color: #2b3d4f;
-    color: white;
-    text-align: center;
-    margin-bottom: 1rem;
+.btn-titulo {
+    margin-bottom: 2rem;
+    width: 100%;
 }
 
+.etiqueta {
+    width: 100% ;
+    background-color: #175696;
+    pointer-events: none;
+    font-size: 2rem;
+}
+
+body {
+    background-color: #2b3d4f;
+}
 
 @media screen and (min-width:1024px) {
+    
     .slide{
         cursor: pointer;
         position: relative;
